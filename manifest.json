@@ -1,5 +1,14 @@
 {
     "manifest_version" : 2,
     "name" : "KhumKhomTH",
-    "version" : "1.0"
+    "version" : "1.0",
+    "icon" : {
+        "128" : "KKTH128.png",
+        "48" : "KKTH48.png",
+        "16" : "KKTH16.png"
+    },
+    "browser_action" :{
+        "default_icon" : "KKTH16.png",
+        "default_popup" : "popup.html"
+    }
 }
