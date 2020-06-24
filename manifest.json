@@ -2,7 +2,20 @@
     "manifest_version" : 2,
     "name" : "KhumKhomTH",
     "version" : "1.0",
-    "browser_action" :{
-        "default_popup" : "popup.html"
-    }
+    "page_action" :{
+        "default_popup" : "popup.html",
+        "default_title" : "InPageKhumKhom"
+    },
+    "background": {
+        "scripts":[
+            "eventPage.js"
+        ],
+        "persistent": false
+    },
+
+    "permissions": [
+        "tabs"
+    ]
+
+    
 }
