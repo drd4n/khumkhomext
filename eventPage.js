@@ -1,9 +1,12 @@
-// chrome.runtime.onMessage.addListener(function(request, sender, sendResponse){
-//     if(request.todo == "showPageAction"){
-        
-//     }
-// });
+chrome.runtime.onMessage.addListener(function(request ,sender, sendRespond){
+    if(request.todo == "showPageAction"){
+        alert("Fuck you Sean");
+       var x = document.createElement('span').innerHTML("xxxxxx");
+       document.appendChild(x);
+       
+}
 
-chrome.tabs.query({active:true, currentWindow:true}, function(tabs){
-    chrome.pageAction.show(tabs[0].id);
 });
+    
+    
+
