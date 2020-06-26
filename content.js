@@ -1,13 +1,23 @@
+var quoteNum = Math.floor(Math.random() * (4 - 1)) + 1;
+var quoteArr = ["dummy","ถ้าคิดไรไม่ออก คิดถึงเราได้ตลอดเลยนะ","เด็กบางมดไม่เจ้าชู้ ใครๆก็รู้กัน","เซื่อในสิ่งที่เฮ็ด เฮ็ดในสิ่งที่เซื่อ"];
+
 var div = document.createElement('div');
 var img = document.createElement('img');
 img.src = 'https://scontent.fkkc3-1.fna.fbcdn.net/v/t1.15752-9/106025141_292481108612782_718686642885017837_n.png?_nc_cat=103&_nc_sid=b96e70&_nc_eui2=AeGU27FglFPrpg5BMb7CvKN0Ij_l3Q8JGUYiP-XdDwkZRuSLQDbYSmua0GwyHBqsiw6GJZsjQI4jVb0icoQelrML&_nc_ohc=2ddVOW-TCJQAX9Qq48K&_nc_ht=scontent.fkkc3-1.fna&oh=be3485c2f31d4e07530d39e5e9ffdae7&oe=5F1D2E57';
 var bg = document.createElement('div');
 var idlediv = document.createElement('div');
-
+var outer = document.createElement('div');
+var inner = document.createElement('div');
+outer.className ='outertext';
+inner.className = 'innertext';
+outer.appendChild(inner);
+div.appendChild(outer);
+inner.innerHTML = quoteArr[quoteNum];
 idlediv.setAttribute('id', 'idle');
 idlediv.appendChild(div);
 idlediv.appendChild(bg);
-div.innerHTML = '<div class="outertext"><div class="innertext">เสี่ยวๆๆๆๆ</div></div>';
+
+// div.innerHTML = '<div class="outertext"><div class="innertext">เสี่ยวๆๆๆๆ</div></div>';
     bg.className = 'bg';
     bg.appendChild(img);
     img.className='backy';
