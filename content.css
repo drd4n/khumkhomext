@@ -1,15 +1,17 @@
-.kkth {
+.outer {
     z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999;
     position: fixed;
     /* animation: linear themove 30s alternate infinite; */
     animation: x 13s linear infinite alternate;
+    top: 0px;
 }
 
-.kkkk{
+.inner{
     font-size: 100px;
     color: white;
     background: black;
     animation: y 7s linear infinite alternate;
+    top: 0px;
 }
 
   
