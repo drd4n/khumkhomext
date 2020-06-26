@@ -1,12 +1,14 @@
 .kkkk{
     font-size: 100px;
+    color: white;
 }
 
 .kkth {
-    z-index: 9999999999999999999999999;
+    z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999;
+    position: absolute;
+    top: 123px;
     width: 400px;
-    background: red;
-    position: relative;
+    background: black;
     animation: themove 3s alternate infinite;
 }
 
