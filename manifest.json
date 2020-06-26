@@ -1,14 +1,11 @@
 {
     "manifest_version" : 2,
-    "name" : "KhumKhomTH",
-    "version" : "1.0",
+    "name" : "Khakai Life Coach",
+    "version" : "1.1",
+    "description":"คำพูดสอนใจจากประสบการณ์ของนาย ฌ้อน",
     "browser_action" :{
         "default_popup" : "popup.html",
-        "default_title" : "InPageKhumKhom"
-    },
-    "background": {
-        "scripts":["eventPage.js"],
-        "persistent": false
+        "default_title" : "Khakai Life Coach"
     },
 
     "content_scripts":[
