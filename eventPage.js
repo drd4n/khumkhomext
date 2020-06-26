@@ -1,5 +1,4 @@
-var container = 
-'<div class="bg" style="background-image=url(WAIT.png), background-size: cover, background-size: 100% 100% " >เสี่ยวๆๆๆๆ</span>';
+ var container = '<div>เสี่ยวๆๆๆๆ</div>';
 
 chrome.runtime.onMessage.addListener(function(request ,sender, sendRespond){
     if(request.todo == "showPageAction"){
