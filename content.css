@@ -3,7 +3,7 @@
 }
 
 .bg {
-    position: absolute; 
+    position: fixed; 
     z-index: 99999;
     background-image:url(https://scontent.fkkc3-1.fna.fbcdn.net/v/t1.15752-9/106296480_596717787910863_2268530434085473042_n.png?_nc_cat=106&_nc_sid=b96e70&_nc_eui2=AeFDFolqZp0Y-JeMyb-4FJRRGFP2rbej1XMYU_att6PVc8_gd2MOD6osOcuYKjz_AO-1rBxfssLoLvLNttsjDJqY&_nc_ohc=jE-XETQIbL8AX8xwJXN&_nc_ht=scontent.fkkc3-1.fna&oh=c74ee2a5fe386fc29141cda1dcbf4eae&oe=5F1BC0FE);
     background-size: cover;
