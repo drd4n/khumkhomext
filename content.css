@@ -1,12 +1,33 @@
-.outer {
-    z-index: 999999999999999999999999999999999999999999999999999999999999999999999999999;
+#idle {
+    position: absolute; 
+    width: 100%; 
+    height:100%; 
+    left:0px; 
+    top: 0px; 
+    display: none; 
+    z-index:999999999;
+}
+
+.bg {
+    position: fixed;
+    background-image: url(https://scontent.fkkc3-1.fna.fbcdn.net/v/t1.15752-9/106025141_292481108612782_718686642885017837_n.png?_nc_cat=103&_nc_sid=b96e70&_nc_eui2=AeGU27FglFPrpg5BMb7CvKN0Ij_l3Q8JGUYiP-XdDwkZRuSLQDbYSmua0GwyHBqsiw6GJZsjQI4jVb0icoQelrML&_nc_ohc=2ddVOW-TCJQAX9Qq48K&_nc_ht=scontent.fkkc3-1.fna&oh=be3485c2f31d4e07530d39e5e9ffdae7&oe=5F1D2E57);
+    width: 100%; 
+    height:100%; 
+    left:0px; 
+    top: 0px; 
+    display: none; 
+    z-index:99999999999999999;
+}
+
+.outertext {
+    z-index: 999999999999999999999999999;
     position: fixed;
     /* animation: linear themove 30s alternate infinite; */
     animation: x 13s linear infinite alternate;
     top: 0px;
 }
 
-.inner{
+.innertext{
     font-size: 100px;
     color: white;
     background: black;
