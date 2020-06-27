@@ -28,7 +28,7 @@
     z-index: 2147483647;
     position: fixed;
     /* animation: linear themove 30s alternate infinite; */
-    animation: x 13s linear infinite alternate;
+    animation: x 9s linear infinite alternate;
     top: 0px;
 }
 
@@ -37,7 +37,7 @@
     font-size: 50px;
     color: white;
     background: black;
-    animation: y 7s linear infinite alternate;
+    animation: y 4s linear infinite alternate;
     top: 0px;
 }
 
