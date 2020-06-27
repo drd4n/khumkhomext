@@ -1,5 +1,5 @@
 var quoteNum = Math.floor(Math.random() * (4 - 1)) + 1;
-var quoteArr = ["dummy","ถ้าคิดไรไม่ออก คิดถึงเราได้ตลอดเลยนะ","เด็กบางมดไม่เจ้าชู้ ใครๆก็รู้กัน","เซื่อในสิ่งที่เฮ็ด เฮ็ดในสิ่งที่เซื่อ"];
+var quoteArr = ["dummy","ถ้าคิดไรไม่ออก<br>คิดถึงเราได้ตลอดเลยนะ","เด็กบางมดไม่เจ้าชู้<br>ใครๆก็รู้กัน","เซื่อในสิ่งที่เฮ็ด<br>เฮ็ดในสิ่งที่เซื่อ"];
 
 var div = document.createElement('div');
 var img = document.createElement('img');
@@ -28,7 +28,7 @@ idlediv.appendChild(bg);
 
         var mousetimeout;
 var screensaver_active = false;
-var idletime = 5;
+var idletime = 6;
 
 function show_screensaver(){
     $('#idle').fadeIn();

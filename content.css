@@ -44,13 +44,13 @@
   
   @keyframes x {
     100% {
-      transform: translateX( calc(100vw - 600px) );
+      transform: translateX( calc(100vw - 450px) );
     }
   }
   
   @keyframes y {
     100% {
-      transform: translateY( calc(100vh - 50px) );
+      transform: translateY( calc(100vh - 130px) );
     }
   }
 
