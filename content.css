@@ -27,30 +27,34 @@
 .outertext {
     z-index: 2147483647;
     position: fixed;
+    width: 400px;
+    height: 100px;
     /* animation: linear themove 30s alternate infinite; */
-    animation: x 9s linear infinite alternate;
+    animation: x 11s linear infinite alternate;
     top: 0px;
 }
 
 .innertext{
     z-index: 2147483647;
-    font-size: 50px;
+    font-size: 40px;
     color: white;
     background: black;
-    animation: y 4s linear infinite alternate;
+    animation: y 6s linear infinite alternate;
     top: 0px;
+    width: 400px;
+    height: 100px;
 }
 
   
   @keyframes x {
     100% {
-      transform: translateX( calc(100vw - 450px) );
+      transform: translateX( calc(100vw - 400px) );
     }
   }
   
   @keyframes y {
     100% {
-      transform: translateY( calc(100vh - 130px) );
+      transform: translateY( calc(100vh - 100px) );
     }
   }
 
